@@ -1,4 +1,4 @@
-package singleton;
+package com.alive.singleton;
 
 /**
  * 枚举单例

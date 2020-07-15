@@ -1,4 +1,4 @@
-package singleton;
+package com.alive.singleton;
 
 /**
  * 饿汉式采用静态块方式写

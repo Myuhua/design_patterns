@@ -1,4 +1,4 @@
-package singleton;
+package com.alive.singleton;
 
 /**
  * 静态内部类的方式(完美)

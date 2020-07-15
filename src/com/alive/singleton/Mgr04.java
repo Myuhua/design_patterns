@@ -1,4 +1,4 @@
-package singleton;
+package com.alive.singleton;
 
 /**
  * 针对Mgr04事例中线程不安全的问题可用synchronized解决，但是又会带来性能问题
