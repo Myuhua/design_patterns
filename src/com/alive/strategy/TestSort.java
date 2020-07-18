@@ -26,6 +26,22 @@ public class TestSort {
         sorter3.sortObject(catss);
         System.out.println(Arrays.toString(catss));
 
+        Sorter sorter4 = new Sorter();
+        Cat cat7 = new Cat(3, 3);
+        Cat cat8 = new Cat(5, 5);
+        Cat cat9 = new Cat(1, 1);
+        Cat[] catsss = {cat7, cat8, cat9};
+        sorter4.sortObjectByComparator(catsss,new CatWeightComparator());
+        System.out.println(Arrays.toString(catss));
+
+        Sorter sorter5 = new Sorter();
+        Cat cat10 = new Cat(3, 5);
+        Cat cat11 = new Cat(5, 3);
+        Cat cat12 = new Cat(1, 1);
+        Cat[] catssss = {cat10, cat11, cat12};
+        sorter5.sortObjectByComparator(catssss,new CatHeightComparator());
+        System.out.println(Arrays.toString(catssss));
+
     }
 
 }

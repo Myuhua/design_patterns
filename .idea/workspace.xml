@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66367720-feed-4d8b-b7d3-4bed9981a4c7" name="Default Changelist" comment="" />
+    <list default="true" id="66367720-feed-4d8b-b7d3-4bed9981a4c7" name="Default Changelist" comment="1.策略模式&#10;2.添加.ignore文件">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alive/strategy/CatHeightComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alive/strategy/CatWeightComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alive/strategy/Comparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_patterns/singleton/Mgr01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_patterns/singleton/Mgr02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_patterns/singleton/Mgr03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_patterns/singleton/Mgr04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_patterns/singleton/Mgr05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_patterns/singleton/Mgr06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_patterns/singleton/Mgr07$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_patterns/singleton/Mgr07$Mgr07Holder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_patterns/singleton/Mgr07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_patterns/singleton/Mgr08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alive/strategy/Comparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alive/strategy/Comparable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alive/strategy/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alive/strategy/Sorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alive/strategy/TestSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alive/strategy/TestSort.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +30,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1eg6sxpYMiuNHTADqZzOTGLrI4b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,32 +47,29 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Mgr08">
-    <configuration name="Mgr04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.Mgr04" />
-      <module name="design_patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.alive.strategy" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="strategy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestSort">
     <configuration name="Mgr05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.Mgr05" />
+      <option name="MAIN_CLASS_NAME" value="com.alive.singleton.Mgr05" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleton.*" />
+          <option name="PATTERN" value="com.alive.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,11 +78,11 @@
       </method>
     </configuration>
     <configuration name="Mgr06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.Mgr06" />
+      <option name="MAIN_CLASS_NAME" value="com.alive.singleton.Mgr06" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleton.*" />
+          <option name="PATTERN" value="com.alive.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,11 +91,11 @@
       </method>
     </configuration>
     <configuration name="Mgr07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.Mgr07" />
+      <option name="MAIN_CLASS_NAME" value="com.alive.singleton.Mgr07" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleton.*" />
+          <option name="PATTERN" value="com.alive.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,11 +104,24 @@
       </method>
     </configuration>
     <configuration name="Mgr08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.Mgr08" />
+      <option name="MAIN_CLASS_NAME" value="com.alive.singleton.Mgr08" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleton.*" />
+          <option name="PATTERN" value="com.alive.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alive.strategy.TestSort" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alive.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSort" />
         <item itemvalue="Application.Mgr08" />
         <item itemvalue="Application.Mgr07" />
         <item itemvalue="Application.Mgr05" />
         <item itemvalue="Application.Mgr06" />
-        <item itemvalue="Application.Mgr04" />
       </list>
     </recent_temporary>
   </component>
@@ -115,41 +150,98 @@
       <option name="presentableId" value="Default" />
       <updated>1594731098953</updated>
       <workItem from="1594731102657" duration="5507000" />
+      <workItem from="1594737160141" duration="9572000" />
+      <workItem from="1595078026038" duration="221000" />
     </task>
+    <task id="LOCAL-00001" summary="1.包名更改&#10;2.多种类型数据排序">
+      <created>1594825079526</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594825079527</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.包名更改&#10;2.多种类型数据排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.包名更改&#10;2.多种类型数据排序" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1925" y="620" key="#Project_Structure" timestamp="1594731127349">
       <screen x="1680" y="-716" width="1440" height="2537" />
     </state>
     <state x="1925" y="620" key="#Project_Structure/1680.-716.1440.2537/0.23.1680.1027@1680.-716.1440.2537" timestamp="1594731127349" />
+    <state x="2134" y="440" key="#com.intellij.ide.util.MemberChooser" timestamp="1594907915845">
+      <screen x="1680" y="-739" width="1440" height="2560" />
+    </state>
+    <state x="2134" y="452" key="#com.intellij.ide.util.MemberChooser/1680.-716.1440.2537/0.23.1680.1027@1680.-716.1440.2537" timestamp="1594822603940" />
+    <state x="2134" y="440" key="#com.intellij.ide.util.MemberChooser/1680.-739.1440.2560/0.0.1680.1050@1680.-739.1440.2560" timestamp="1594907915845" />
     <state x="2130" y="388" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594732397499">
       <screen x="1680" y="-716" width="1440" height="2537" />
     </state>
     <state x="2130" y="388" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1680.-716.1440.2537/0.23.1680.1027@1680.-716.1440.2537" timestamp="1594732397499" />
-    <state width="1388" height="631" key="GridCell.Tab.0.bottom" timestamp="1594736675299">
+    <state x="1734" y="94" key="CommitChangelistDialog2" timestamp="1595078227500">
       <screen x="1680" y="-716" width="1440" height="2537" />
     </state>
-    <state width="1388" height="631" key="GridCell.Tab.0.bottom/1680.-716.1440.2537/0.23.1680.1027@1680.-716.1440.2537" timestamp="1594736675299" />
-    <state width="1388" height="631" key="GridCell.Tab.0.center" timestamp="1594736675283">
+    <state x="1734" y="94" key="CommitChangelistDialog2/1680.-716.1440.2537/0.23.1680.1027@1680.-716.1440.2537" timestamp="1595078227500" />
+    <state x="1736" y="78" key="CommitChangelistDialog2/1680.-739.1440.2560/0.0.1680.1050@1680.-739.1440.2560" timestamp="1594825079300" />
+    <state x="1728" y="110" key="DiffContextDialog" timestamp="1594825024301">
+      <screen x="1680" y="-739" width="1440" height="2560" />
+    </state>
+    <state x="1728" y="110" key="DiffContextDialog/1680.-739.1440.2560/0.0.1680.1050@1680.-739.1440.2560" timestamp="1594825024301" />
+    <state width="1388" height="155" key="GridCell.Tab.0.bottom" timestamp="1594908934795">
+      <screen x="1680" y="-739" width="1440" height="2560" />
+    </state>
+    <state width="1388" height="155" key="GridCell.Tab.0.bottom/1680.-716.1440.2537/0.23.1680.1027@1680.-716.1440.2537" timestamp="1594824471604" />
+    <state width="1388" height="155" key="GridCell.Tab.0.bottom/1680.-739.1440.2560/0.0.1680.1050@1680.-739.1440.2560" timestamp="1594908934795" />
+    <state width="1388" height="155" key="GridCell.Tab.0.center" timestamp="1594908934792">
+      <screen x="1680" y="-739" width="1440" height="2560" />
+    </state>
+    <state width="1388" height="155" key="GridCell.Tab.0.center/1680.-716.1440.2537/0.23.1680.1027@1680.-716.1440.2537" timestamp="1594824471603" />
+    <state width="1388" height="155" key="GridCell.Tab.0.center/1680.-739.1440.2560/0.0.1680.1050@1680.-739.1440.2560" timestamp="1594908934792" />
+    <state width="1388" height="155" key="GridCell.Tab.0.left" timestamp="1594908934791">
+      <screen x="1680" y="-739" width="1440" height="2560" />
+    </state>
+    <state width="1388" height="155" key="GridCell.Tab.0.left/1680.-716.1440.2537/0.23.1680.1027@1680.-716.1440.2537" timestamp="1594824471602" />
+    <state width="1388" height="155" key="GridCell.Tab.0.left/1680.-739.1440.2560/0.0.1680.1050@1680.-739.1440.2560" timestamp="1594908934791" />
+    <state width="1388" height="155" key="GridCell.Tab.0.right" timestamp="1594908934794">
+      <screen x="1680" y="-739" width="1440" height="2560" />
+    </state>
+    <state width="1388" height="155" key="GridCell.Tab.0.right/1680.-716.1440.2537/0.23.1680.1027@1680.-716.1440.2537" timestamp="1594824471603" />
+    <state width="1388" height="155" key="GridCell.Tab.0.right/1680.-739.1440.2560/0.0.1680.1050@1680.-739.1440.2560" timestamp="1594908934794" />
+    <state width="1388" height="271" key="GridCell.Tab.1.bottom" timestamp="1594821367064">
       <screen x="1680" y="-716" width="1440" height="2537" />
     </state>
-    <state width="1388" height="631" key="GridCell.Tab.0.center/1680.-716.1440.2537/0.23.1680.1027@1680.-716.1440.2537" timestamp="1594736675283" />
-    <state width="1388" height="631" key="GridCell.Tab.0.left" timestamp="1594736675279">
+    <state width="1388" height="271" key="GridCell.Tab.1.bottom/1680.-716.1440.2537/0.23.1680.1027@1680.-716.1440.2537" timestamp="1594821367064" />
+    <state width="1388" height="271" key="GridCell.Tab.1.center" timestamp="1594821367063">
       <screen x="1680" y="-716" width="1440" height="2537" />
     </state>
-    <state width="1388" height="631" key="GridCell.Tab.0.left/1680.-716.1440.2537/0.23.1680.1027@1680.-716.1440.2537" timestamp="1594736675279" />
-    <state width="1388" height="631" key="GridCell.Tab.0.right" timestamp="1594736675285">
+    <state width="1388" height="271" key="GridCell.Tab.1.center/1680.-716.1440.2537/0.23.1680.1027@1680.-716.1440.2537" timestamp="1594821367063" />
+    <state width="1388" height="271" key="GridCell.Tab.1.left" timestamp="1594821367063">
       <screen x="1680" y="-716" width="1440" height="2537" />
     </state>
-    <state width="1388" height="631" key="GridCell.Tab.0.right/1680.-716.1440.2537/0.23.1680.1027@1680.-716.1440.2537" timestamp="1594736675285" />
-    <state x="556" y="374" key="com.intellij.ide.util.TipDialog" timestamp="1594731105399">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1388" height="271" key="GridCell.Tab.1.left/1680.-716.1440.2537/0.23.1680.1027@1680.-716.1440.2537" timestamp="1594821367063" />
+    <state width="1388" height="271" key="GridCell.Tab.1.right" timestamp="1594821367063">
+      <screen x="1680" y="-716" width="1440" height="2537" />
+    </state>
+    <state width="1388" height="271" key="GridCell.Tab.1.right/1680.-716.1440.2537/0.23.1680.1027@1680.-716.1440.2537" timestamp="1594821367063" />
+    <state x="1785" y="585" key="SettingsEditor" timestamp="1595078008345">
+      <screen x="1680" y="-716" width="1440" height="2537" />
+    </state>
+    <state x="1785" y="585" key="SettingsEditor/1680.-716.1440.2537/0.23.1680.1027@1680.-716.1440.2537" timestamp="1595078008345" />
+    <state x="1900" y="218" key="Vcs.Push.Dialog.v2" timestamp="1594825085505">
+      <screen x="1680" y="-739" width="1440" height="2560" />
+    </state>
+    <state x="1900" y="218" key="Vcs.Push.Dialog.v2/1680.-739.1440.2560/0.0.1680.1050@1680.-739.1440.2560" timestamp="1594825085505" />
+    <state x="2156" y="151" key="com.intellij.ide.util.TipDialog" timestamp="1595078136073">
+      <screen x="1680" y="-716" width="1440" height="2537" />
     </state>
     <state x="556" y="374" key="com.intellij.ide.util.TipDialog/1680.-716.1440.2537/0.23.1680.1027@0.23.1680.1027" timestamp="1594731105399" />
+    <state x="2156" y="151" key="com.intellij.ide.util.TipDialog/1680.-716.1440.2537/0.23.1680.1027@1680.-716.1440.2537" timestamp="1595078136073" />
     <state x="2006" y="509" width="838" height="1032" key="search.everywhere.popup" timestamp="1594732341349">
       <screen x="1680" y="-716" width="1440" height="2537" />
     </state>
